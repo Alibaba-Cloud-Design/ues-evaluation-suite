@@ -1,0 +1,875 @@
+{
+  "schema_version": "ues.scenario-tags.v1",
+  "suite": "ease-of-use-suite-47",
+  "suite_version": "1.8.0",
+  "source": {
+    "review_schema": "ues.review-export.v1",
+    "dataset_checksum": "250a9ac9e1ed62180494ebfc222e8b8a4c5105396e720cb969b684c426b7d882",
+    "exported_at": "2026-08-28T08:57:40.233Z",
+    "task_status": "in_progress"
+  },
+  "import_rules": {
+    "criterion_set": "current_canon_only",
+    "applicability": "current_canon_unchanged",
+    "tasks_numeric": "uniform_1_not_used",
+    "stages": "empty_not_used",
+    "unreviewed_tags": "neutral_no_overwrite"
+  },
+  "criteria": [
+    {
+      "id": "A01.01",
+      "title": "页面用途可识别",
+      "level": "page",
+      "importance": 3,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 2,
+        "exploration": 3,
+        "task_system": 3
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易见"
+    },
+    {
+      "id": "A01.02",
+      "title": "识别当前页面所针对的对象与适用范围是否明确",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 3
+      },
+      "task_scope": {
+        "mode": "task_specific",
+        "primary_tasks": [
+          "create",
+          "diagnose",
+          "compare"
+        ]
+      },
+      "dimension": "易见"
+    },
+    {
+      "id": "A01.03",
+      "title": "当前状态与数据范围可理解",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 3
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "A01.04",
+      "title": "关键数据具备足够的决策语境",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 3
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "A01.05",
+      "title": "任务必要信息充分",
+      "level": "page",
+      "importance": 3,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 2,
+        "exploration": 3,
+        "task_system": 3
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "A01.06",
+      "title": "标签、术语与表述清楚",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 2,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "A01.10",
+      "title": "空状态和零结果说明足以支持下一步",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 3,
+        "task_system": 3
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "A01.11",
+      "title": "时间表达与数据新鲜度足以支持当前任务",
+      "level": "page",
+      "importance": 1,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "A02.01",
+      "title": "信息出现顺序符合理解和决策逻辑",
+      "level": "page",
+      "importance": 3,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 2,
+        "exploration": 3,
+        "task_system": 3
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "A02.02",
+      "title": "信息语义分组正确",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易见"
+    },
+    {
+      "id": "A02.04",
+      "title": "标题能准确概括所属内容",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 2,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "A02.05",
+      "title": "页面位置和导航关系清楚",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 3
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易见"
+    },
+    {
+      "id": "A03.01",
+      "title": "可执行行动从语义上可理解",
+      "level": "page",
+      "importance": 3,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 2,
+        "exploration": 3,
+        "task_system": 3
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "A03.02",
+      "title": "操作标签能预测结果",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "A03.03",
+      "title": "操作对象和作用范围明确",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易操作"
+    },
+    {
+      "id": "A03.04",
+      "title": "图标和符号的含义恰当",
+      "level": "page",
+      "importance": 1,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "A03.05",
+      "title": "条件、费用、权限和后果提前说明",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易见"
+    },
+    {
+      "id": "A03.06",
+      "title": "选项差异支持比较和决策",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "task_specific",
+        "primary_tasks": [
+          "execute",
+          "compare",
+          "collaborate"
+        ]
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "A03.07",
+      "title": "必要帮助出现在疑问附近",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 3
+      },
+      "task_scope": {
+        "mode": "task_specific",
+        "primary_tasks": [
+          "execute",
+          "diagnose",
+          "decide"
+        ]
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "A03.09",
+      "title": "业务输入字段的含义、格式和要求清楚",
+      "level": "page",
+      "importance": 1,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 1,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易操作"
+    },
+    {
+      "id": "B01.01",
+      "title": "核心任务或内容进入第一注意层级",
+      "level": "page",
+      "importance": 3,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 3,
+        "exploration": 3,
+        "task_system": 3
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易见"
+    },
+    {
+      "id": "B01.04",
+      "title": "正确的信息分组得到视觉表达",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 3
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易见"
+    },
+    {
+      "id": "B01.07",
+      "title": "阅读和扫描路径连贯",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 2,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易见"
+    },
+    {
+      "id": "B01.08",
+      "title": "页面密度适合任务和用户",
+      "level": "page",
+      "importance": 1,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 3,
+        "task_system": 3
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易见"
+    },
+    {
+      "id": "B01.09",
+      "title": "文字层级容易区分",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 2,
+        "exploration": 2,
+        "task_system": 3
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易见"
+    },
+    {
+      "id": "B01.10",
+      "title": "正文和段落节奏易读",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 2,
+        "exploration": 2,
+        "task_system": 1
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易见"
+    },
+    {
+      "id": "B01.12",
+      "title": "表格、列表和数字便于扫描比较",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易见"
+    },
+    {
+      "id": "B01.13",
+      "title": "图文、标签和控件空间绑定明确",
+      "level": "page",
+      "importance": 1,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 1,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易见"
+    },
+    {
+      "id": "B01.14",
+      "title": "首屏和视口折线不制造页面已结束的错觉",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 2,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易操作"
+    },
+    {
+      "id": "B04.06",
+      "title": "颜色角色和状态语义一致",
+      "level": "page",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 3
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "F1.01",
+      "title": "有效入口与核心路径真实可达",
+      "level": "flow",
+      "importance": 3,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 3,
+        "exploration": 3,
+        "task_system": 3
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易操作"
+    },
+    {
+      "id": "F1.02",
+      "title": "必要角色、权限与条件分支可达",
+      "level": "flow",
+      "importance": 3,
+      "tag_status": "not_started",
+      "tag_confidence": "medium",
+      "paradigms": null,
+      "task_scope": null,
+      "dimension": "易操作"
+    },
+    {
+      "id": "F1.07",
+      "title": "完成后存在合理结果去向",
+      "level": "flow",
+      "importance": 3,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 2,
+        "exploration": 3,
+        "task_system": 3
+      },
+      "task_scope": {
+        "mode": "task_specific",
+        "primary_tasks": [
+          "execute"
+        ]
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "F2.01",
+      "title": "步骤顺序符合任务与决策依赖",
+      "level": "flow",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 3
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "F2.03",
+      "title": "操作量与决策负担符合任务必要性",
+      "level": "flow",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "F2.05",
+      "title": "回看与上下文切换负担合理",
+      "level": "flow",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 2,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "F2.06",
+      "title": "复杂度按需披露",
+      "level": "flow",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "F2.07",
+      "title": "高频和批量任务可高效处理；跨角色任务可顺畅交接",
+      "level": "flow",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "task_specific",
+        "primary_tasks": [
+          "execute",
+          "collaborate"
+        ]
+      },
+      "dimension": "易操作"
+    },
+    {
+      "id": "F3.01",
+      "title": "操作得到及时、可归因的首次反馈",
+      "level": "flow",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 2,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易见"
+    },
+    {
+      "id": "F3.04",
+      "title": "操作反馈的显著程度与事件重要性相匹配",
+      "level": "flow",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 2,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "task_specific",
+        "primary_tasks": [
+          "execute"
+        ]
+      },
+      "dimension": "易学"
+    },
+    {
+      "id": "F3.05",
+      "title": "终态准确区分成功、失败、部分成功和结果不确定",
+      "level": "flow",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 2,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "task_specific",
+        "primary_tasks": [
+          "execute",
+          "diagnose",
+          "compare"
+        ]
+      },
+      "dimension": "易见"
+    },
+    {
+      "id": "F3.06",
+      "title": "选择、筛选、模式、连接和保存状态持续可见",
+      "level": "flow",
+      "importance": 1,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易操作"
+    },
+    {
+      "id": "F7.01",
+      "title": "转换过程中框架和对象身份稳定",
+      "level": "flow",
+      "importance": 3,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 2,
+        "exploration": 3,
+        "task_system": 3
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易见"
+    },
+    {
+      "id": "F7.02",
+      "title": "对象出现、移动、替换和消失具有空间连续性",
+      "level": "flow",
+      "importance": 2,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 2,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易见"
+    },
+    {
+      "id": "F7.03",
+      "title": "转换后注意力和键盘焦点落在当前任务重点",
+      "level": "flow",
+      "importance": 2,
+      "tag_status": "not_started",
+      "tag_confidence": "medium",
+      "paradigms": null,
+      "task_scope": null,
+      "dimension": "易学"
+    },
+    {
+      "id": "F7.04",
+      "title": "局部更新受控且不会移动操作目标",
+      "level": "flow",
+      "importance": 1,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 1,
+        "exploration": 1,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易操作"
+    },
+    {
+      "id": "F7.05",
+      "title": "动效目的、时长和节奏适合任务",
+      "level": "flow",
+      "importance": 1,
+      "tag_status": "completed",
+      "tag_confidence": "medium",
+      "paradigms": {
+        "narrative": 2,
+        "exploration": 2,
+        "task_system": 2
+      },
+      "task_scope": {
+        "mode": "universal",
+        "primary_tasks": []
+      },
+      "dimension": "易见"
+    }
+  ]
+}

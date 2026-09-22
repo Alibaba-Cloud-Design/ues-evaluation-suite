@@ -1,0 +1,23 @@
+{
+  "schema_version": "ues-evidence-index/0.1",
+  "run_id": "RUN-EXAMPLE-001",
+  "version": 1,
+  "generated_at": "2026-09-15T15:05:00+08:00",
+  "input_snapshot_id": "INPUT-001",
+  "evidence": [
+    {
+      "id": "E-001",
+      "kind": "screenshot",
+      "origin": "supplied",
+      "ref": "https://example.invalid/ues-evidence/example.png",
+      "recorded_at": "2026-09-15T15:00:00+08:00",
+      "subjects": {"page_ids": ["P-01"], "state_ids": ["S-01"], "task_ids": [], "run_ids": []},
+      "locator": "完整画面",
+      "observable_fact": "结构示例使用的假想产品截图引用",
+      "authorization_scope": "user_supplied",
+      "sensitivity": "unknown",
+      "derivative_of": null,
+      "supersedes": null
+    }
+  ]
+}

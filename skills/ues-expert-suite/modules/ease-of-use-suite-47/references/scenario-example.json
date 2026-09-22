@@ -1,0 +1,69 @@
+{
+  "assessment_type": "static",
+  "context": {
+    "id": "test-r1",
+    "frozen": true,
+    "scenarios": [
+      {
+        "id": "S1",
+        "task_id": "T1",
+        "goal": "核对测试对象",
+        "basis": "测试用例的固定场景",
+        "primary_task": "diagnose",
+        "secondary_tasks": []
+      }
+    ],
+    "paradigm_selection": {
+      "primary": {
+        "paradigm": "task_system",
+        "share": 1
+      },
+      "confirmation": {
+        "source": "explicit_input",
+        "user_statement": "合成测试：仅按任务系统型评估。"
+      }
+    }
+  },
+  "criteria": [
+    {
+      "id": "A01.01",
+      "judgment": "pass"
+    },
+    {
+      "id": "A01.02",
+      "judgment": "partial_pass"
+    },
+    {
+      "id": "A02.02",
+      "judgment": "pass"
+    },
+    {
+      "id": "A01.03",
+      "judgment": "pass"
+    },
+    {
+      "id": "A01.04",
+      "judgment": "pass"
+    },
+    {
+      "id": "A01.06",
+      "judgment": "pass"
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "criterion_ids": [
+        "A01.02"
+      ],
+      "primary_dimension": "易见",
+      "severity": "Minor",
+      "scenario_links": [
+        {
+          "criterion_id": "A01.02",
+          "scenario_id": "S1"
+        }
+      ]
+    }
+  ]
+}

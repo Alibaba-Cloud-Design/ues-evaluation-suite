@@ -1,0 +1,12 @@
+(() => {
+ const choices=[...document.querySelectorAll('[data-issue-choice]')],panels=[...document.querySelectorAll('[data-issue-detail]')];
+ let active=choices[0]?.dataset.issueChoice;
+ function show(id){active=id;choices.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.issueChoice===id)));panels.forEach(p=>p.hidden=p.dataset.issueDetail!==id);}
+ choices.forEach(b=>b.addEventListener('click',()=>show(b.dataset.issueChoice)));
+ const query=document.querySelector('#issue-query'),priority=document.querySelector('#issue-priority');
+ function filter(){const q=query.value.trim().toLowerCase();choices.forEach(b=>b.hidden=!(b.dataset.query.toLowerCase().includes(q)&&(!priority.value||priority.value===b.dataset.priority)));const visible=choices.filter(b=>!b.hidden);if(!visible.some(b=>b.dataset.issueChoice===active))show(visible[0]?.dataset.issueChoice);document.querySelector('#issue-empty').hidden=visible.length>0;document.querySelector('#issue-results').textContent=`${visible.length} / ${choices.length} 个问题`;}
+ if(query && priority && document.querySelector('#issue-reset') && document.querySelector('#issue-empty') && document.querySelector('#issue-results')) { query.addEventListener('input',filter);priority.addEventListener('change',filter);document.querySelector('#issue-reset').addEventListener('click',()=>{query.value='';priority.value='';filter();query.focus()});filter(); }
+ panels.forEach(p=>{p.querySelector('[data-annotation-toggle]')?.addEventListener('change',e=>p.classList.toggle('hide-annotations',!e.target.checked));p.querySelectorAll('[data-proof-choice]').forEach(b=>b.addEventListener('click',()=>{p.querySelectorAll('[data-proof]').forEach(f=>f.hidden=f.dataset.proof!==b.dataset.proofChoice);p.querySelectorAll('[data-proof-choice]').forEach(v=>v.setAttribute('aria-pressed',String(v===b)))}))});
+ document.querySelectorAll('[data-persona-choice]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-persona-panel]').forEach(p=>p.hidden=p.dataset.personaPanel!==b.dataset.personaChoice);document.querySelectorAll('[data-persona-choice]').forEach(v=>v.setAttribute('aria-pressed',String(v===b)))}));
+ document.querySelectorAll('[data-ues-method-target]').forEach(b=>b.addEventListener('click',()=>{document.querySelector('[aria-controls="method"]')?.click();const t=document.getElementById(b.dataset.uesMethodTarget);if(t){for(let p=t;p;p=p.parentElement){if(p.tagName==='DETAILS')p.open=true;}t.scrollIntoView({block:'start'});}}));
+})();

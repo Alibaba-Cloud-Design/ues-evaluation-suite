@@ -1,0 +1,43 @@
+{
+  "schema_version": "ues-visual-quality-summary/0.1",
+  "status": "diagnosed",
+  "overall_judgment": "mixed",
+  "score": {
+    "status": "not_requested",
+    "scale": 100,
+    "raw": null,
+    "cap": null,
+    "final": null,
+    "experimental": true
+  },
+  "units": [
+    {
+      "id": "A",
+      "overall_judgment": "mixed",
+      "score": {
+        "status": "not_requested",
+        "raw": null,
+        "cap": null,
+        "final": null
+      },
+      "axes": []
+    }
+  ],
+  "counts": {
+    "raw_findings": 2,
+    "confirmed": 1,
+    "downgraded": 0,
+    "resolved": 1,
+    "needs_evidence": 0,
+    "issues": 1,
+    "strengths": 1
+  },
+  "perception_path": "visual-quality/perception.frozen.json",
+  "diagnosis_path": "visual-quality/diagnosis.frozen.json",
+  "evaluation_path": null,
+  "perception_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "diagnosis_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "evidence_limitations": [
+    "示例占位；实际运行替换为当前静态证据边界"
+  ]
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{REPORT_TITLE}}</title>
+  <link rel="stylesheet" href="ues-report.css">
+  <link rel="stylesheet" href="detail-layout.css">
+</head>
+<body>
+<main class="ues-shell">
+  <header class="ues-hero">
+    <small>UES EXPERT SUITE · {{EVIDENCE_LEVEL}}</small>
+    <h1>{{REPORT_TITLE}}</h1>
+    <p>{{CORE_CONCLUSION}}</p>
+    <div class="ues-meta">{{PRODUCT_STAGE}} · {{VIEWPORT}} · {{ASSESSED_AT}}</div>
+  </header>
+  <nav class="ues-nav" role="tablist" aria-label="报告章节">
+    <button type="button" role="tab" aria-selected="true" aria-controls="overview">总览</button>
+    <button type="button" role="tab" aria-selected="false" aria-controls="issues">整改优先级 · {{ISSUE_COUNT}}</button>
+    <button type="button" role="tab" aria-selected="false" aria-controls="method">范围与方法</button>
+  </nav>
+  <section id="overview" role="tabpanel">{{OVERVIEW}}</section>
+  <section id="issues" role="tabpanel" hidden>{{ISSUES}}</section>
+  <section id="method" role="tabpanel" hidden>{{METHOD}}</section>
+  <footer class="ues-footer">{{FOOTER_LINKS}}</footer>
+</main>
+<dialog class="ues-lightbox" data-ues-lightbox aria-label="证据原图预览">
+  <div><span data-ues-lightbox-caption></span><button type="button" data-ues-lightbox-close>关闭 Esc</button></div>
+  <div class="ues-lightbox-stage"><img alt=""></div>
+</dialog>
+<script src="ues-report.js"></script>
+<script>initUesReport();</script>
+<script src="detail-layout.js"></script>
+</body>
+</html>

@@ -1,0 +1,941 @@
+{
+  "schema_version": "0.2.0",
+  "record_kind": "example",
+  "status": "planned",
+  "assessment_id": "EXAMPLE-READONLY-001",
+  "product": {
+    "name": "虚构云控制台（结构示例，未执行）",
+    "version": "unknown",
+    "entry": "待提供实际测试入口"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "type": "inferred",
+      "ref": "本文件内虚构的示例设定",
+      "note": "所有角色是方法演示假设，不来自真实用户研究"
+    },
+    {
+      "id": "S2",
+      "type": "unknown",
+      "ref": "无真实用户材料",
+      "note": "无依据的维度不额外补写行为"
+    }
+  ],
+  "personas": [
+    {
+      "id": "P1",
+      "label": "业务新手",
+      "version": "1",
+      "kind": "hypothetical",
+      "dimensions": {
+        "role": {
+          "fields": {
+            "job_role": {
+              "value": "业务助理",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "professional_background": {
+              "value": "非技术业务背景",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "years_experience": {
+              "value": "1年",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "mbti": {
+              "value": "未知",
+              "status": "unknown",
+              "basis": [
+                "S2"
+              ],
+              "reason": "示例未设置，不用MBTI推导行为"
+            },
+            "product_stage": {
+              "value": "首次接触此类产品",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        },
+        "skills": {
+          "fields": {
+            "proficiency": {
+              "value": "基础网页操作",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "technical_background": {
+              "value": "懂日常办公，不懂云配置",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "recovery_ability": {
+              "value": "会返回与读帮助，不会系统排错",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        },
+        "operating_habits": {
+          "fields": {
+            "information_preference": {
+              "value": "具体场景和例子",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "path_tendency": {
+              "value": "先浏览分类再查看详情",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "navigation_preference": {
+              "value": "可见分类与逐步入口",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        },
+        "goals": {
+          "fields": {
+            "goal_intensity": {
+              "value": "中等，愿花时间理解",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "error_tolerance": {
+              "value": "允许可恢复的小错误，不接受不明费用",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "success_path": {
+              "value": "能用自己的话解释用途和成本",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        },
+        "emotional_cognition": {
+          "fields": {
+            "cognitive_load": {
+              "value": "偏好小块信息",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "anxiety_sensitivity": {
+              "value": "对费用不确定性敏感",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "decision_expectation": {
+              "value": "先理解再决定",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        },
+        "feedback_expression": {
+          "fields": {
+            "expression_preference": {
+              "value": "用业务语言描述卡点",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "understanding_preference": {
+              "value": "偏好例子和通俗解释",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "feedback_motivation": {
+              "value": "遇阻愿意说明困惑",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        },
+        "behavioral_randomness": {
+          "fields": {
+            "behavior_type": {
+              "value": "偶发相邻分类探索",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "random_behavior": {
+              "value": "不设概率，不强造误点",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        }
+      },
+      "context": {
+        "need": "找到满足给定业务需求的资源配置并核对费用，停在创建前",
+        "product_experience": "对本产品无已证实的使用经验，不注入正确入口记忆",
+        "known_concepts": [
+          "日常业务需求"
+        ],
+        "unknown_concepts": [
+          "本产品命名与计费规则"
+        ],
+        "conditions": [
+          "虚构示例，无真实产品入口或账号",
+          "仅浏览，不创建或付费"
+        ]
+      },
+      "behavior_rules": [
+        {
+          "id": "B1",
+          "field_refs": [
+            "operating_habits.information_preference",
+            "operating_habits.path_tendency",
+            "operating_habits.navigation_preference"
+          ],
+          "when": "可见页面有多种功能或信息入口",
+          "action": "先按业务用途浏览分类并读具体示例",
+          "check": "动作记录能追溯到当时可见的入口及所读内容"
+        },
+        {
+          "id": "B2",
+          "field_refs": [
+            "goals.goal_intensity",
+            "goals.error_tolerance",
+            "goals.success_path",
+            "emotional_cognition.decision_expectation"
+          ],
+          "when": "已找到候选功能，需要判断适用性",
+          "action": "核对与当前需求相关的用途、限制和费用；不足则记录不确定",
+          "check": "结论区分已读事实与未确认条件，不依据标签预设成败"
+        },
+        {
+          "id": "B3",
+          "field_refs": [
+            "skills.recovery_ability",
+            "emotional_cognition.cognitive_load",
+            "emotional_cognition.anxiety_sensitivity"
+          ],
+          "when": "自然遇到术语、错误或信息不确定",
+          "action": "查看通俗说明或帮助；无说明则保留疑问",
+          "check": "只记录实际发生的查找与恢复，不刻意注入错误"
+        }
+      ],
+      "inactive_fields": {
+        "role.job_role": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "role.professional_background": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "role.years_experience": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "role.mbti": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "role.product_stage": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "skills.proficiency": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "skills.technical_background": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "feedback_expression.expression_preference": "本轮自然阅读任务没有主动反馈或随机探查要求，不额外制造动作",
+        "feedback_expression.understanding_preference": "本轮自然阅读任务没有主动反馈或随机探查要求，不额外制造动作",
+        "feedback_expression.feedback_motivation": "本轮自然阅读任务没有主动反馈或随机探查要求，不额外制造动作",
+        "behavioral_randomness.behavior_type": "本轮自然阅读任务没有主动反馈或随机探查要求，不额外制造动作",
+        "behavioral_randomness.random_behavior": "本轮自然阅读任务没有主动反馈或随机探查要求，不额外制造动作"
+      },
+      "hypotheses": [
+        "这些偏好可能影响路径选择，尚未执行或经真人验证"
+      ]
+    },
+    {
+      "id": "P2",
+      "label": "懂业务的开发者",
+      "version": "1",
+      "kind": "hypothetical",
+      "dimensions": {
+        "role": {
+          "fields": {
+            "job_role": {
+              "value": "应用开发者",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "professional_background": {
+              "value": "软件开发",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "years_experience": {
+              "value": "4年",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "mbti": {
+              "value": "未知",
+              "status": "unknown",
+              "basis": [
+                "S2"
+              ],
+              "reason": "示例未设置，不用MBTI推导行为"
+            },
+            "product_stage": {
+              "value": "同类产品熟悉，本产品首次使用",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        },
+        "skills": {
+          "fields": {
+            "proficiency": {
+              "value": "熟悉配置表单",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "technical_background": {
+              "value": "理解实例地域等通用概念",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "recovery_ability": {
+              "value": "能依据错误信息定位字段",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        },
+        "operating_habits": {
+          "fields": {
+            "information_preference": {
+              "value": "参数、限制和对比",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "path_tendency": {
+              "value": "优先直达功能详情",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "navigation_preference": {
+              "value": "清晰层级或可见搜索",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        },
+        "goals": {
+          "fields": {
+            "goal_intensity": {
+              "value": "较高，先确认是否适配",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "error_tolerance": {
+              "value": "容忍可定位错误，不接受结果不确定",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "success_path": {
+              "value": "确认配置与预算足以支持当前需求",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        },
+        "emotional_cognition": {
+          "fields": {
+            "cognitive_load": {
+              "value": "可处理结构化参数，不愿反复找说明",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "anxiety_sensitivity": {
+              "value": "对不明确计费敏感",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "decision_expectation": {
+              "value": "先比较关键条件再决定",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        },
+        "feedback_expression": {
+          "fields": {
+            "expression_preference": {
+              "value": "描述具体条件和错误",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "understanding_preference": {
+              "value": "规则结合一个例子",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "feedback_motivation": {
+              "value": "遇到可复现问题愿意反馈",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        },
+        "behavioral_randomness": {
+          "fields": {
+            "behavior_type": {
+              "value": "偶发比较相邻方案",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "random_behavior": {
+              "value": "定性变体，不设误点比例",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        }
+      },
+      "context": {
+        "need": "找到满足给定业务需求的资源配置并核对费用，停在创建前",
+        "product_experience": "对本产品无已证实的使用经验，不注入正确入口记忆",
+        "known_concepts": [
+          "实例",
+          "地域",
+          "常见网络概念"
+        ],
+        "unknown_concepts": [
+          "本产品命名与计费规则"
+        ],
+        "conditions": [
+          "虚构示例，无真实产品入口或账号",
+          "仅浏览，不创建或付费"
+        ]
+      },
+      "behavior_rules": [
+        {
+          "id": "B1",
+          "field_refs": [
+            "operating_habits.information_preference",
+            "operating_habits.path_tendency",
+            "operating_habits.navigation_preference"
+          ],
+          "when": "可见页面有多种功能或信息入口",
+          "action": "优先查看可见功能详情及参数",
+          "check": "动作记录能追溯到当时可见的入口及所读内容"
+        },
+        {
+          "id": "B2",
+          "field_refs": [
+            "goals.goal_intensity",
+            "goals.error_tolerance",
+            "goals.success_path",
+            "emotional_cognition.decision_expectation"
+          ],
+          "when": "已找到候选功能，需要判断适用性",
+          "action": "核对与当前需求相关的用途、限制和费用；不足则记录不确定",
+          "check": "结论区分已读事实与未确认条件，不依据标签预设成败"
+        },
+        {
+          "id": "B3",
+          "field_refs": [
+            "skills.recovery_ability",
+            "emotional_cognition.cognitive_load",
+            "emotional_cognition.anxiety_sensitivity"
+          ],
+          "when": "自然遇到术语、错误或信息不确定",
+          "action": "结合错误提示定位字段；计费不明则查规则",
+          "check": "只记录实际发生的查找与恢复，不刻意注入错误"
+        }
+      ],
+      "inactive_fields": {
+        "role.job_role": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "role.professional_background": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "role.years_experience": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "role.mbti": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "role.product_stage": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "skills.proficiency": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "skills.technical_background": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "feedback_expression.expression_preference": "本轮自然阅读任务没有主动反馈或随机探查要求，不额外制造动作",
+        "feedback_expression.understanding_preference": "本轮自然阅读任务没有主动反馈或随机探查要求，不额外制造动作",
+        "feedback_expression.feedback_motivation": "本轮自然阅读任务没有主动反馈或随机探查要求，不额外制造动作",
+        "behavioral_randomness.behavior_type": "本轮自然阅读任务没有主动反馈或随机探查要求，不额外制造动作",
+        "behavioral_randomness.random_behavior": "本轮自然阅读任务没有主动反馈或随机探查要求，不额外制造动作"
+      },
+      "hypotheses": [
+        "这些偏好可能影响路径选择，尚未执行或经真人验证"
+      ]
+    },
+    {
+      "id": "P3",
+      "label": "业务运营负责人",
+      "version": "1",
+      "kind": "hypothetical",
+      "dimensions": {
+        "role": {
+          "fields": {
+            "job_role": {
+              "value": "运营负责人",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "professional_background": {
+              "value": "业务运营",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "years_experience": {
+              "value": "8年",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "mbti": {
+              "value": "未知",
+              "status": "unknown",
+              "basis": [
+                "S2"
+              ],
+              "reason": "示例未设置，不用MBTI推导行为"
+            },
+            "product_stage": {
+              "value": "经常用数字工具，不熟悉云产品",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        },
+        "skills": {
+          "fields": {
+            "proficiency": {
+              "value": "熟悉业务工具，不擅长基础设施配置",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "technical_background": {
+              "value": "能理解业务指标，不熟悉网络术语",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "recovery_ability": {
+              "value": "优先核对结果范围，再查帮助",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        },
+        "operating_habits": {
+          "fields": {
+            "information_preference": {
+              "value": "摘要、成本和业务结果",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "path_tendency": {
+              "value": "先看结论，再补关键细节",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "navigation_preference": {
+              "value": "偏好清晰层级导航",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        },
+        "goals": {
+          "fields": {
+            "goal_intensity": {
+              "value": "高，希望尽快作出选择",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "error_tolerance": {
+              "value": "可接受探索回退，不接受隐藏条件",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "success_path": {
+              "value": "能向团队说明选择依据",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        },
+        "emotional_cognition": {
+          "fields": {
+            "cognitive_load": {
+              "value": "先看摘要，必要时展开细节",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "anxiety_sensitivity": {
+              "value": "对重复查找容忍度低",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "decision_expectation": {
+              "value": "先排除不适用方案再核对候选",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        },
+        "feedback_expression": {
+          "fields": {
+            "expression_preference": {
+              "value": "结构化说明影响和期望",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "understanding_preference": {
+              "value": "业务案例结合关键限制",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "feedback_motivation": {
+              "value": "有明确业务影响时愿意反馈",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        },
+        "behavioral_randomness": {
+          "fields": {
+            "behavior_type": {
+              "value": "偶尔比较备选方案",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            },
+            "random_behavior": {
+              "value": "不设概率；不得强制偏离任务",
+              "status": "assumed",
+              "basis": [
+                "S1"
+              ],
+              "reason": "虚构角色的模拟设定，不是调研事实"
+            }
+          }
+        }
+      },
+      "context": {
+        "need": "找到满足给定业务需求的资源配置并核对费用，停在创建前",
+        "product_experience": "对本产品无已证实的使用经验，不注入正确入口记忆",
+        "known_concepts": [
+          "日常业务需求"
+        ],
+        "unknown_concepts": [
+          "本产品命名与计费规则"
+        ],
+        "conditions": [
+          "虚构示例，无真实产品入口或账号",
+          "仅浏览，不创建或付费"
+        ]
+      },
+      "behavior_rules": [
+        {
+          "id": "B1",
+          "field_refs": [
+            "operating_habits.information_preference",
+            "operating_habits.path_tendency",
+            "operating_habits.navigation_preference"
+          ],
+          "when": "可见页面有多种功能或信息入口",
+          "action": "先读摘要，再查看候选功能的关键条件",
+          "check": "动作记录能追溯到当时可见的入口及所读内容"
+        },
+        {
+          "id": "B2",
+          "field_refs": [
+            "goals.goal_intensity",
+            "goals.error_tolerance",
+            "goals.success_path",
+            "emotional_cognition.decision_expectation"
+          ],
+          "when": "已找到候选功能，需要判断适用性",
+          "action": "核对与当前需求相关的用途、限制和费用；不足则记录不确定",
+          "check": "结论区分已读事实与未确认条件，不依据标签预设成败"
+        },
+        {
+          "id": "B3",
+          "field_refs": [
+            "skills.recovery_ability",
+            "emotional_cognition.cognitive_load",
+            "emotional_cognition.anxiety_sensitivity"
+          ],
+          "when": "自然遇到术语、错误或信息不确定",
+          "action": "先核对结果范围，再查必要说明",
+          "check": "只记录实际发生的查找与恢复，不刻意注入错误"
+        }
+      ],
+      "inactive_fields": {
+        "role.job_role": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "role.professional_background": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "role.years_experience": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "role.mbti": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "role.product_stage": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "skills.proficiency": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "skills.technical_background": "背景/能力边界保留在角色包，不直接驱动额外动作",
+        "feedback_expression.expression_preference": "本轮自然阅读任务没有主动反馈或随机探查要求，不额外制造动作",
+        "feedback_expression.understanding_preference": "本轮自然阅读任务没有主动反馈或随机探查要求，不额外制造动作",
+        "feedback_expression.feedback_motivation": "本轮自然阅读任务没有主动反馈或随机探查要求，不额外制造动作",
+        "behavioral_randomness.behavior_type": "本轮自然阅读任务没有主动反馈或随机探查要求，不额外制造动作",
+        "behavioral_randomness.random_behavior": "本轮自然阅读任务没有主动反馈或随机探查要求，不额外制造动作"
+      },
+      "hypotheses": [
+        "这些偏好可能影响路径选择，尚未执行或经真人验证"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "T1",
+      "goal": "找到满足给定业务需求的资源配置，核对费用并停在最终创建前",
+      "entry": "待提供实际产品入口",
+      "preconditions": [
+        "需要实际产品材料及业务需求",
+        "若实测，使用已获授权的测试账号和环境"
+      ],
+      "success_check": "验证所选配置与给定需求一致，费用及范围可核对，且未执行最终创建；这不等于创建资源任务完成",
+      "authorization": {
+        "allowed": [
+          "查看可访问页面",
+          "不产生服务端副作用的筛选与本地表单编辑"
+        ],
+        "prohibited": [
+          "创建资源",
+          "付费",
+          "删除",
+          "上传",
+          "外发",
+          "权限变更"
+        ],
+        "basis": "示例仅定义只读范围，不代表任何真实系统操作授权"
+      },
+      "budget": {
+        "max_actions": 30,
+        "max_no_progress": 3
+      },
+      "scenarios": [
+        {
+          "id": "N1",
+          "kind": "natural",
+          "description": "自然查找配置和费用，不人为注入错误"
+        }
+      ]
+    }
+  ],
+  "allocations": [
+    {
+      "persona_id": "P1",
+      "task_id": "T1",
+      "scenario_id": "N1",
+      "repeat_count": 1,
+      "reason": "业务知识有限者的理解风险"
+    },
+    {
+      "persona_id": "P2",
+      "task_id": "T1",
+      "scenario_id": "N1",
+      "repeat_count": 1,
+      "reason": "分离业务知识与产品熟悉度"
+    },
+    {
+      "persona_id": "P3",
+      "task_id": "T1",
+      "scenario_id": "N1",
+      "repeat_count": 1,
+      "reason": "业务结果导向与技术知识分离的角色覆盖"
+    }
+  ],
+  "runs": [],
+  "evidence": [],
+  "issues": [],
+  "limitations": [
+    "本文件为虚构结构示例；冻结时间亦为示例，没有实际运行",
+    "全部画像设定为假设，不是真实用户研究",
+    "预算是测试资源上限，不是真人耐心"
+  ],
+  "persona_plan": {
+    "id": "EXAMPLE-PERSONAS",
+    "version": "1",
+    "state": "frozen",
+    "frozen_at": "2026-09-14T00:00:00Z (fictional example only)"
+  }
+}

@@ -1,0 +1,33 @@
+<details class="ues-panel method-intro" id="visual-quality-method" data-ues-visual-quality>
+  <summary>视觉质量检测</summary>
+  <div class="scope-grid">
+    <section class="scope-block">
+      <h3>整体判断与实验分</h3>
+      <dl class="scope-facts">
+        <div><dt>整体判断</dt><dd>{{VISUAL_OVERALL_JUDGMENT}}</dd></div>
+        <div><dt>实验分</dt><dd>{{VISUAL_SCORE_SUMMARY}}</dd></div>
+        <div><dt>评估单元</dt><dd>{{VISUAL_UNIT_SUMMARY}}</dd></div>
+      </dl>
+    </section>
+    <section class="scope-block">
+      <h3>四轴结果</h3>
+      {{VISUAL_AXES}}
+    </section>
+  </div>
+  <div class="scope-limit">
+    <b>证据边界</b>
+    {{VISUAL_EVIDENCE_LIMITS}}
+  </div>
+  <details class="light-details">
+    <summary>查看开放发现追溯</summary>
+    {{VISUAL_FINDING_TRACE}}
+  </details>
+  <details class="light-details">
+    <summary>查看强项与已解决怀疑</summary>
+    {{VISUAL_STRENGTHS_AND_RESOLVED}}
+  </details>
+  <details class="light-details">
+    <summary>查看冻结产物</summary>
+    {{VISUAL_ARTIFACT_LINKS}}
+  </details>
+</details>

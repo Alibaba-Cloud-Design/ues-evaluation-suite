@@ -1,0 +1,22 @@
+{
+  "schema_version": "ues-run-state/0.3",
+  "run_id": "RUN-EXAMPLE-001",
+  "created_at": "2026-09-15T15:00:00+08:00",
+  "updated_at": "2026-09-15T15:10:00+08:00",
+  "input_snapshot": {"id": "INPUT-001", "version": 1, "artifacts": ["https://example.invalid/ues-evidence/example.png"]},
+  "profile": {"version": 1, "status": "frozen", "artifact_path": "product-profile.json"},
+  "confirmations": {
+    "paradigm": {"status": "not_required", "version": null, "artifact_path": null, "basis": "本次仅执行基准评估"},
+    "task_contract": {"status": "not_required", "version": null, "artifact_path": null, "basis": "任务专项未选择"}
+  },
+  "routing": {"version": 1, "status": "draft", "artifact_path": "routing-plan.example.json"},
+  "evidence_index": {"version": 1, "path": "evidence-index.example.json", "sha256": "b76f1bc983300a7d240294abb437ef20ad99d553f9f84450fa1dbb84d106a577"},
+  "diagnosis": {"version": 1, "status": "validated", "artifact_path": "diagnosis.example.json"},
+  "specialists": [],
+  "report": {
+    "status": "not_started",
+    "artifact_paths": [],
+    "depends_on": null,
+    "reason": "结构示例尚未开始专项执行"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "ues-diagnosis/0.1",
+  "run_id": "RUN-EXAMPLE-001",
+  "version": 1,
+  "input_snapshot_id": "INPUT-001",
+  "evidence_index_version": 1,
+  "scenarios": [
+    {
+      "id": "S1",
+      "goal": "判断申请是否已修正并完成审批",
+      "decision": "此前被拒绝的问题是否已被充分修正",
+      "required_information": ["上次拒绝原因", "本次修改内容", "当前申请详情"],
+      "success_outcome": "审批人能确认差异并作出有依据的决定",
+      "basis": "用户说明该页面用于复审",
+      "assumptions": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "D-01",
+      "scenario_ids": ["S1"],
+      "observation": "当前页面只显示本次申请详情",
+      "observation_evidence_ids": ["EV-001"],
+      "hypothesis": "审批人无法在当前任务中核对修正内容",
+      "potential_consequence": "需要跨记录查找，可能重复批准未修正申请",
+      "verification": {
+        "action": "检查历史记录入口及差异展示",
+        "expected_discriminator": "存在可达且与当前申请绑定的拒绝原因和修改差异则反驳假设",
+        "evidence_ids": ["EV-002"],
+        "status": "confirmed"
+      },
+      "counterevidence": {
+        "alternatives_checked": ["页面内历史入口", "同对象详情中的变更记录"],
+        "remaining_uncertainty": []
+      },
+      "conclusion": {
+        "status": "confirmed",
+        "confidence": "high",
+        "summary": "复审任务缺少与当前申请绑定的历史原因和修改差异",
+        "linked_output_ids": ["ISSUE-01"]
+      }
+    }
+  ],
+  "stage_metrics": [
+    {"stage": "open_diagnosis", "active_ms": 120000, "wait_ms": 0},
+    {"stage": "targeted_validation", "active_ms": 90000, "wait_ms": 0}
+  ]
+}

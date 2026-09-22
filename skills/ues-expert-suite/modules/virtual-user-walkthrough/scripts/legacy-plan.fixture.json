@@ -1,0 +1,299 @@
+{
+  "schema_version": "0.1.0",
+  "record_kind": "example",
+  "status": "planned",
+  "assessment_id": "EXAMPLE-READONLY-001",
+  "product": {
+    "name": "虚构云控制台（结构示例，未执行）",
+    "version": "unknown",
+    "entry": "待提供实际测试入口"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "type": "inferred",
+      "ref": "本文件内虚构的示例设定",
+      "note": "所有角色是方法演示假设，不来自真实用户研究"
+    },
+    {
+      "id": "S2",
+      "type": "unknown",
+      "ref": "无真实用户材料",
+      "note": "无依据的维度不额外补写行为"
+    }
+  ],
+  "personas": [
+    {
+      "id": "P1",
+      "label": "业务新手",
+      "version": "1",
+      "dimensions": {
+        "role": {
+          "description": "首次了解云资源的业务使用者",
+          "basis": [
+            "S1"
+          ],
+          "rules": [
+            "只处理当前任务的目标对象，不扩展到运维管理"
+          ]
+        },
+        "goals": {
+          "description": "找到适合需求的资源并理解费用，不提交创建",
+          "basis": [
+            "S1"
+          ],
+          "rules": [
+            "选择前寻找用途和费用说明"
+          ]
+        },
+        "knowledge": {
+          "description": "理解业务需求，不了解云网络类型及产品术语",
+          "basis": [
+            "S1"
+          ],
+          "rules": [
+            "选项含义未知时查找可见解释，不预先借用专业答案"
+          ]
+        },
+        "skills": {
+          "description": "能使用基础表单、搜索和帮助，不具备云配置排错能力",
+          "basis": [
+            "S1"
+          ],
+          "rules": [
+            "遇到配置问题先使用页面说明或帮助"
+          ]
+        },
+        "emotional_cognition": {
+          "description": "假设对费用不确定性敏感",
+          "basis": [
+            "S1"
+          ],
+          "rules": [
+            "无法理解费用时寻求确认，不能据此宣称真实焦虑"
+          ]
+        },
+        "communication_style": {
+          "description": "用业务用途描述问题",
+          "basis": [
+            "S1"
+          ],
+          "rules": [
+            "如果有只读搜索，优先用业务语言检索；不实际外发求助"
+          ]
+        },
+        "behavioral_randomness": {
+          "description": "本轮不增加额外随机扰动",
+          "basis": [
+            "S1"
+          ],
+          "rules": []
+        }
+      },
+      "hypotheses": [
+        "可能在网络术语解释处需要帮助，未验证"
+      ]
+    },
+    {
+      "id": "P2",
+      "label": "懂业务但首次使用产品",
+      "version": "1",
+      "dimensions": {
+        "role": {
+          "description": "首次使用此控制台的开发者",
+          "basis": [
+            "S1"
+          ],
+          "rules": []
+        },
+        "goals": {
+          "description": "找到适用资源配置并核对费用，不提交创建",
+          "basis": [
+            "S1"
+          ],
+          "rules": [
+            "根据相同业务需求核对配置"
+          ]
+        },
+        "knowledge": {
+          "description": "理解实例、地域和常见网络概念，不了解产品内部命名",
+          "basis": [
+            "S1"
+          ],
+          "rules": [
+            "行业概念可使用已有知识，内部术语仍需界面依据"
+          ]
+        },
+        "skills": {
+          "description": "会使用配置表单及依据错误提示定位字段",
+          "basis": [
+            "S1"
+          ],
+          "rules": [
+            "如自然出现输入问题，依据可见提示检查字段"
+          ]
+        },
+        "emotional_cognition": {
+          "description": "未知，本轮不据此推断差异",
+          "basis": [
+            "S2"
+          ],
+          "rules": []
+        },
+        "communication_style": {
+          "description": "会使用技术术语检索帮助",
+          "basis": [
+            "S1"
+          ],
+          "rules": [
+            "在允许的帮助搜索中可使用技术名称"
+          ]
+        },
+        "behavioral_randomness": {
+          "description": "本轮不增加额外随机扰动",
+          "basis": [
+            "S1"
+          ],
+          "rules": []
+        }
+      },
+      "hypotheses": [
+        "可能理解行业概念，但受产品内部命名影响，未验证"
+      ]
+    },
+    {
+      "id": "P3",
+      "label": "熟悉产品的运维人员（条件画像）",
+      "version": "1",
+      "dimensions": {
+        "role": {
+          "description": "假设为已有产品经验的运维人员",
+          "basis": [
+            "S1"
+          ],
+          "rules": []
+        },
+        "goals": {
+          "description": "高效核对适用配置与费用，不提交创建",
+          "basis": [
+            "S1"
+          ],
+          "rules": [
+            "关注重复输入及必要信息核对"
+          ]
+        },
+        "knowledge": {
+          "description": "应了解实际产品的常用入口；当前缺少历史使用材料，熟悉范围待补",
+          "basis": [
+            "S2"
+          ],
+          "rules": [
+            "不得凭熟练用户标签捏造入口记忆；缺少依据时标画像受限"
+          ]
+        },
+        "skills": {
+          "description": "能处理常见配置和核对资源范围",
+          "basis": [
+            "S1"
+          ],
+          "rules": [
+            "可使用实际可见的效率入口，不绕过UI"
+          ]
+        },
+        "emotional_cognition": {
+          "description": "未知，本轮不据此推断差异",
+          "basis": [
+            "S2"
+          ],
+          "rules": []
+        },
+        "communication_style": {
+          "description": "未知，本轮不据此推断差异",
+          "basis": [
+            "S2"
+          ],
+          "rules": []
+        },
+        "behavioral_randomness": {
+          "description": "本轮不增加额外随机扰动",
+          "basis": [
+            "S1"
+          ],
+          "rules": []
+        }
+      },
+      "hypotheses": [
+        "熟悉产品可能影响入口查找；补齐使用历史前不声称已模拟该差异"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "T1",
+      "goal": "找到满足给定业务需求的资源配置，核对费用并停在最终创建前",
+      "entry": "待提供实际产品入口",
+      "preconditions": [
+        "需要实际产品材料及业务需求",
+        "若实测，使用已获授权的测试账号和环境"
+      ],
+      "success_check": "验证所选配置与给定需求一致，费用及范围可核对，且未执行最终创建；这不等于创建资源任务完成",
+      "authorization": {
+        "allowed": [
+          "查看可访问页面",
+          "不产生服务端副作用的筛选与本地表单编辑"
+        ],
+        "prohibited": [
+          "创建资源",
+          "付费",
+          "删除",
+          "上传",
+          "外发",
+          "权限变更"
+        ],
+        "basis": "示例仅定义只读范围，不代表任何真实系统操作授权"
+      },
+      "budget": {
+        "max_actions": 30,
+        "max_no_progress": 3
+      },
+      "scenarios": [
+        {
+          "id": "N1",
+          "kind": "natural",
+          "description": "自然查找配置和费用，不人为注入错误"
+        }
+      ]
+    }
+  ],
+  "allocations": [
+    {
+      "persona_id": "P1",
+      "task_id": "T1",
+      "scenario_id": "N1",
+      "repeat_count": 1,
+      "reason": "业务知识有限者的理解风险"
+    },
+    {
+      "persona_id": "P2",
+      "task_id": "T1",
+      "scenario_id": "N1",
+      "repeat_count": 1,
+      "reason": "分离业务知识与产品熟悉度"
+    },
+    {
+      "persona_id": "P3",
+      "task_id": "T1",
+      "scenario_id": "N1",
+      "repeat_count": 1,
+      "reason": "检验熟悉度差异，须先补齐产品经验依据"
+    }
+  ],
+  "runs": [],
+  "evidence": [],
+  "issues": [],
+  "limitations": [
+    "本文件纯属结构示例，无真实入口、运行或研究结果",
+    "画像均为假设，P3产品熟悉度尚无依据",
+    "预算为测试资源上限，不是真人耐心"
+  ]
+}

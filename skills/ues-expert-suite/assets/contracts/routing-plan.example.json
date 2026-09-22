@@ -1,0 +1,25 @@
+{
+  "schema_version": "ues-routing-plan/0.2",
+  "scope_request": {
+    "mode": "only",
+    "requested_specialists": [
+      "ease-of-use-suite-47",
+      "consistency-suite-22"
+    ],
+    "basis": "用户明确只要求易用性与一致性"
+  },
+  "run_id": "RUN-EXAMPLE-001",
+  "version": 1,
+  "input_snapshot_id": "INPUT-001",
+  "profile_version": 1,
+  "generated_at": "2026-09-20T12:00:00+08:00",
+  "specialists": [
+    {"name": "ues-baseline-gate", "result_status": "not_selected", "reason": "用户限定范围", "evidence_basis": [], "required_confirmations": [], "dependencies": [], "planned_outputs": []},
+    {"name": "ease-of-use-suite-47", "result_status": "executed", "reason": "用户明确选择", "evidence_basis": ["INPUT-001"], "required_confirmations": [], "dependencies": [], "planned_outputs": ["ease/assessment.json"]},
+    {"name": "consistency-suite-22", "result_status": "executed", "reason": "用户明确选择且存在可比较对象", "evidence_basis": ["INPUT-001"], "required_confirmations": [], "dependencies": [], "planned_outputs": ["consistency/assessment.json"]},
+    {"name": "task-experience-score", "result_status": "not_selected", "reason": "用户限定范围", "evidence_basis": [], "required_confirmations": [], "dependencies": [], "planned_outputs": []},
+    {"name": "page-performance-score", "result_status": "not_selected", "reason": "用户限定范围", "evidence_basis": [], "required_confirmations": [], "dependencies": [], "planned_outputs": []},
+    {"name": "virtual-user-walkthrough", "result_status": "not_selected", "reason": "用户限定范围", "evidence_basis": [], "required_confirmations": [], "dependencies": [], "planned_outputs": []},
+    {"name": "evaluate-visual-quality-v0-9", "result_status": "not_selected", "reason": "用户限定范围", "evidence_basis": [], "required_confirmations": [], "dependencies": [], "planned_outputs": []}
+  ]
+}

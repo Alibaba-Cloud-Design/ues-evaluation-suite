@@ -1,0 +1,7 @@
+interface:
+  display_name: "UES 专家套件"
+  short_description: "默认运行六项体验度量，视觉检测仅在明确要求时启用"
+  default_prompt: "使用 $ues-expert-suite 对这个产品执行默认的六项常规全量度量；除非我明确要求，否则不要运行视觉质量检测，并生成统一HTML与可追溯结果。"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,23 @@
+<!-- Component fragments: replace sample slots with escaped current data.
+Load UES report-kit CSS, then walkthrough.css. Use report-kit interactions or
+local equivalent. Repeat by actual personas/runs/fields, never fixed counts. -->
+<article class="ues-card">
+  <div class="person-head"><span class="avatar" aria-hidden="true">名</span><div><h2>角色名称</h2><p>任务相关背景</p></div></div>
+  <span class="pill">记录中的任务状态</span>
+  <div class="path" aria-label="任务路径"><span>起点</span><span>后续可见节点</span></div>
+  <p class="result">来自记录的任务结果与依据</p>
+  <!-- Add actual evidence figure, persona deep link and run-details button. -->
+</article>
+<section class="dimension">
+  <h2><small>01</small>角色属性</h2>
+  <h3 class="story-title">本维人物主题</h3>
+  <p class="story">从当次画像生成的连贯描述，与下方字段一致。</p>
+  <p class="story-source">区分用户提供背景与模拟补全。</p>
+  <details class="field-expander"><summary>查看细项与依据</summary><div class="fields">
+    <div class="field"><div class="label">职能角色<span class="source">模拟设定</span></div><div class="value">计划中的字段值</div><details><summary>设定依据</summary>字段的实际basis与reason</details></div>
+  </div></details>
+</section>
+<article class="rule"><h3>规则ID · 规则摘要</h3><small>触发情境</small><p>when</p><small>候选行为</small><p>action</p><small>核对依据</small><p>check</p></article>
+<!-- Evidence: set .mark CSS custom properties --mark-left/--mark-top/
+--mark-width/--mark-height per actual image. Add a real original src,
+data-ues-evidence-image, useful alt and figcaption. Never reuse sample coordinates. -->
